@@ -22,7 +22,7 @@ puts "Which stop: #{mta[train_2]}"
 #same train:
 if train_1 == train_2
 total_stops = (mta[train_1].index(stop_1) - mta[train_2].index(stop_2)).abs
-puts "Your trip length is #{total_stops}"
+puts "Your trip length is #{total_stops} stops"
 
 #different train
 elsif train_1 != train_2
